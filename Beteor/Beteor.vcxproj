@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Beteor\log.h" />
     <ClInclude Include="src\Beteor\Appilication.h" />
     <ClInclude Include="src\Beteor\core.h" />
     <ClInclude Include="src\Beteor.h" />
     <ClInclude Include="src\Beteor\Entrypoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Beteor\log.cpp" />
     <ClCompile Include="src\Beteor\Appilication.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -68,6 +70,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>Beteor_PlatformWindows;_DEBUG;Beteor_Build_Dll;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Beteor\Extrnal_lib\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

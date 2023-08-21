@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>E:\Beteor\bin\Debug-x64\Beteor\Beteor.dll</FullPath>
+      <FullPath>E:\Beteor_GAME_ENGINE\bin\Debug-x64\Beteor\Beteor.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>E:\Beteor\bin\Debug-x64\Sandbox\Sandbox.exe</FullPath>
+      <FullPath>E:\Beteor_GAME_ENGINE\bin\Debug-x64\Sandbox\Sandbox.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

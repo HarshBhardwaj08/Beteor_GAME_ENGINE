@@ -1,2 +1,6 @@
 ﻿  Sandbox.cpp
-  Sandbox.vcxproj -> E:\Beteor\bin\Debug-x64\Sandbox\Sandbox.exe
+E:\Beteor_GAME_ENGINE\Beteor\src\Beteor\log.h(18,42): warning C4251: 'Beteor::Log::chintu': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Beteor::Log'
+E:\Beteor_GAME_ENGINE\Beteor\Extrnal_lib\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+E:\Beteor_GAME_ENGINE\Beteor\src\Beteor\log.h(19,42): warning C4251: 'Beteor::Log::bintu': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Beteor::Log'
+E:\Beteor_GAME_ENGINE\Beteor\Extrnal_lib\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+  Sandbox.vcxproj -> E:\Beteor_GAME_ENGINE\bin\Debug-x64\Sandbox\Sandbox.exe
